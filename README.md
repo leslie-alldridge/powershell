@@ -21,3 +21,15 @@ powershell scripting
 - Set-ExecutionPolicy Restricted <- changes current policy to signed
 
 - Format output - can use Format-List or Format-Table as examples Get-Service|Format-Table -Wrap
+
+#### Advantages of Powershell
+
+- Object oriented
+- NET objects and forms supported
+- more functions compared to alternatives
+- background jobs and ease of administration
+
+#### Disadvantages of Powershell
+
+- remoting creates openings for an attacker to exploit
+- WinRM requires a web server to run on the server
