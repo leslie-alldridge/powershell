@@ -1,6 +1,4 @@
-# powershell
-
-powershell scripting
+# PowerShell
 
 ### Powershell Overview
 
