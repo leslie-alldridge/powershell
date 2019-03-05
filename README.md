@@ -33,3 +33,11 @@ powershell scripting
 
 - remoting creates openings for an attacker to exploit
 - WinRM requires a web server to run on the server
+
+Everything in PowerShell is an object (.NET object) that is an instance of a .NET framework class. e.g. (Get-Date).ToShortDateString() can be used
+
+### Pipelines
+
+Pipelines are the machanism used to connect a group of simple cmdlets together in order to build a complex task based script. In PowerShell pipelines can be used to make output of each cmdlet to be used as input for the next cmdlet in pipeline.
+
+Can also create your own alias New-Alias -Name 'testalias' -Value "mycommandgoeshere" then use the name 'testalias' in PS to run the command
